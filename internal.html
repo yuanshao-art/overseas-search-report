@@ -375,8 +375,8 @@ const RAW_DATA = [
   {city:"约翰内斯堡",vol:494.76,wow:-0.0459,yoy:2.2807,region:"others"},
   {city:"太浩湖",vol:465.65,wow:-0.296,yoy:0.408,region:"others"},
   {city:"杜塞尔多夫",vol:460.36,wow:0.0296,yoy:0.2701,region:"others"},
-  {city:"檀香山",vol:441.84,wow:-0.0176,yoy:0.2279,region:"others"},
   {city:"秘鲁",vol:441.84,wow:-0.216,yoy:0.1438,region:"others"},
+  {city:"檀香山",vol:441.84,wow:-0.0176,yoy:0.2279,region:"others"},
   {city:"阿拉斯加",vol:407.45,wow:-0.2451,yoy:0.1,region:"others"},
   {city:"马达加斯加",vol:396.86,wow:-0.2462,yoy:0.3761,region:"others"},
   {city:"宇治",vol:386.28,wow:0.3153,yoy:-0.3761,region:"japan_korea"},
@@ -392,8 +392,8 @@ const RAW_DATA = [
   {city:"大熊湖",vol:52.92,wow:-0.0909,yoy:-0.2593,region:"others"},
   {city:"富士河山",vol:2.65,wow:-0.8,yoy:-0.5,region:"others"},
 ];
-const UPDATE_DATE = "2026-08-08";
-const DATA_RANGE = "2026-07-25 ~ 2026-08-07（近14天）";
+const UPDATE_DATE = "2026-08-09";
+const DATA_RANGE = "2026-07-26 ~ 2026-08-08（近14天）";
 document.getElementById('updateTime').textContent = '数据更新：' + UPDATE_DATE + '  ·  ' + DATA_RANGE;
 
 function fmtVol(v) { return v >= 10000 ? (v/10000).toFixed(1)+'万' : Math.round(v).toLocaleString(); }
